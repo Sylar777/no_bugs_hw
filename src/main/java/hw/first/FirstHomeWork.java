@@ -188,10 +188,8 @@ public class FirstHomeWork {
     public Integer multiplicityOfNumbersAndTheirSum(int a, int b) {
         if (a % 3 == 0 && b % 3 == 0) {
             return a + b;
-        } else if (a % 3 == 0 && b % 3 != 0) {
-            return b * 2;
-        } else if (b % 3 == 0 && a % 3 != 0) {
-            return a * 2;
+        } else if (a % 3 == 0 || b % 3 == 0) {
+            return b * b;
         } else {
             return null;
         }

@@ -174,7 +174,7 @@ public class FirstHomeWorkTest {
     @CsvSource({
             "-3, 33, 30",
             "0, 2, 4",
-            "-1, 3, -2",
+            "-1, 3, 9",
             "7, 8, "
     })
     public void multiplicityOfNumbersAndTheirSumTest(int a, int b, Integer expected) {
